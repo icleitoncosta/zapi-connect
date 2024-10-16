@@ -1,0 +1,26 @@
+{
+  "name": "socket",
+  "version": "0.0.0",
+  "description": "Connection with Socket API",
+  "author": "icleitoncosta",
+  "homepage": "https://github.com/icleitoncosta/zapi-connect/tree/main/packages/socket#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icleitoncosta/zapi-connect.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/socket.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/icleitoncosta/zapi-connect/issues"
+  }
+}

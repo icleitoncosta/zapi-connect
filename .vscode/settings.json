@@ -1,0 +1,14 @@
+{
+    "[javascript]": {
+      "editor.maxTokenizationLineLength": 2500,
+      "editor.bracketPairColorization.enabled": false,
+      "editor.guides.bracketPairs": false,
+      "editor.stickyScroll.enabled": false
+    },
+    "search.useIgnoreFiles": false,
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/docs": true,
+    }
+  }

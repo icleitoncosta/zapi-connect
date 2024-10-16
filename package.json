@@ -1,0 +1,49 @@
+{
+  "name": "zapi-connect",
+  "version": "0.0.1",
+  "description": "Send comuniccation between WhatsApp end nodeJS",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "test",
+    "lint": "eslint --config eslint.config.ts 'src/**/*.ts'",
+    "release": "release-it",
+    "commit": "cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icleitoncosta/zapi-connect.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "whatsapp-socket",
+    "socket"
+  ],
+  "author": "icleitoncosta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icleitoncosta/zapi-connect/issues"
+  },
+  "homepage": "https://github.com/icleitoncosta/zapi-connect#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^9.12.0",
+    "lerna": "^8.1.8",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.9.0"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@commitlint/prompt-cli": "^19.5.0",
+    "@typescript-eslint/eslint-plugin": "^8.9.0",
+    "@typescript-eslint/parser": "^8.9.0",
+    "eslint-plugin-header": "^3.1.1",
+    "eslint-plugin-import": "^2.31.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3",
+    "release-it": "^17.9.0"
+  }
+}
